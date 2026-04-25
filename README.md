@@ -85,16 +85,29 @@ smart-water-level-monitoring-clamp/
 ├── code/
 │   └── water_level.ino
 │
+├── design/
+│   ├── soil-moisture-sensor-probe/
+│   ├── soil-sensor/
+│   ├── clamps/
+│   ├── clamp-components/
+│   └── esp32-mount/
+│
 ├── circuit-water_level_sensor.png
 ├── LICENSE
 └── README.md
 ```
 
 ---
+## License and Usage
+
+- Code is licensed under the MIT License  
+- The mechanical design is protected under a filed patent  
+- Commercial use, reproduction, or manufacturing without permission is strictly prohibited
+- Application Number: 454245-001
 
 ## How It Works
 
-The clamp device is attached externally to a water tank. The sensor continuously monitors the water level and sends readings to the ESP32. The ESP32 uploads this data to the Blynk platform via Wi-Fi. When the water level exceeds or falls below a set threshold, the system automatically notifies the user.
+The clamp device is attached internally to a water tank. The sensor continuously monitors the water level and sends readings to the ESP32. The ESP32 uploads this data to the Blynk platform via Wi-Fi. When the water level exceeds or falls below a set threshold, the system automatically notifies the user.
 
 ---
 
